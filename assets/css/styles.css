@@ -94,6 +94,7 @@ a:focus {
   gap: 5px 5px;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin: auto;
 }
 
 .pills a {
@@ -117,13 +118,14 @@ a:focus {
 /***** Section Template (layout.html) *****/
 .section-container {
   list-style: none;
-  margin: 0 auto;
+  margin: auto;
   padding: 1rem;
 }
 
 .section-container li {
   display: flex;
   justify-content: space-between;
+  margin: auto;
   align-items: top;
   padding: 1rem;
   border: 1px solid #ddd;

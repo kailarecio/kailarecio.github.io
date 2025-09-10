@@ -19,15 +19,9 @@ extracurricular_activities:
 
 projects:
   - title: "Interest Rate Options Discovery"
-    url: "assets/images/iro_disc.gif"
-    image: "assets/images/iro_disc.gif"
-    alt: "iro_disc"
     description: "A web application designed to search and query pricing of interest rate options."
 
   - title: "FX Pricing Benchmarking Study"
-    url: "assets/images/fx_pricing.gif"
-    image: "assets/images/fx_pricing.gif"
-    alt: "fx_pricing"
     description: "A benchmarking study comparing FX pricing from different platforms."
 
 education:
@@ -38,7 +32,7 @@ education:
 
   - title: "University of California Los Angeles"
     subtitle: "Study Abroad Program in Economics"
-    date: "Sep - Dec 2022"
+    date: "Winter 2022"
     description: ""
 
 bachelors_thesis:
