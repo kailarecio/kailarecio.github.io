@@ -1,0 +1,35 @@
+<ul class="section-container ">
+  <p class="lead text-center" id="subtitle"><strong id="subtitle-text">{{ label }}</strong></p>
+    {% for item in items %}
+      <li>
+        <div class="section-info">
+
+          <div class="section-title">
+              {% if item.url and item.url != "" %}
+                <a href="{{ item.url }}">{{ item.title }}</a>
+              {% else %}
+                <div style=color:#cc8b86>{{ item.title }}</div>
+              {% endif %}
+          </div>
+
+          {% if item.subtitle %}
+            {% if item.subtitle == "Abstract" %}
+              <p></p>
+              <div style="text-align:center"><strong>{{ item.subtitle }}</strong></div>
+            {% else %}
+              <div><strong>{{ item.subtitle }}</strong></div>
+            {% endif %}
+          {% endif %}
+
+          {% if item.description %}
+            <p>{{ item.description }}</p>
+          {% endif %}
+
+        </div>
+        {% if item.date %}
+          <span class="section-badge">{{ item.date }}</span>
+        {% endif %}
+
+      </li>
+    {% endfor %}
+  </ul>

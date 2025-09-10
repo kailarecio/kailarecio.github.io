@@ -1,0 +1,18 @@
+- key: industry_experience
+  label: Industry Experience
+- key: education
+  label: Education
+- key: bachelors_thesis
+  label: Bachelor's Thesis
+- key: awards
+  label: Awards
+- key: projects
+  label: Projects
+- key: certifications
+  label: Certifications
+- key: leadership
+  label: Leadership
+- key: extracurricular_activities
+  label: Extracurricular Activities
+- key: volunteering
+  label: Volunteering

@@ -1,0 +1,158 @@
+/******** Page Styles ********/
+.page-style {
+  max-width: 210mm;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 14px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #cc8b86;
+  margin: 1.5rem 0;
+}
+
+/******** Backgrounds ********/
+/* Light Mode (Default) */
+body {
+  background-color: #ffffff;
+  color: #1c1c1c;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #1c1c1c;
+  color: #f5f5f5;
+}
+
+/******** Links ********/
+a {
+  color: #cc8b86;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+  color: #b46979;
+  text-decoration: underline;
+  outline: none;
+}
+
+/******** Icons ********/
+.icons i {
+  color: #cc8b86;
+  font-size: 14px;
+  margin: 0 3px;
+}
+
+/******** Biography Section ********/
+.bio-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin: auto;
+  align-content: center;
+}
+
+/* image */
+.bio-pic {
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* circular image */
+.bio-pic img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  justify-content: center;
+}
+
+/* Main text block next to the image */
+.bio-profile {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+/****** Pills (Sections) ******/
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pills a {
+  padding: 0.375rem 1rem;
+  border-radius: 50rem;
+  background-color: #cc8b86;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+  white-space: nowrap;
+  margin-bottom: 3px;
+}
+
+.pills a:hover,
+.pills a:focus {
+  background-color: #b46979;
+  outline: none;
+}
+
+/***** Section Template (layout.html) *****/
+.section-container {
+  list-style: none;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.section-container li {
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.section-info {
+  margin-right: 1rem;
+}
+
+.section-title {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.section-badge {
+  background-color: #cc8b86;
+  color: white;
+  padding: 0.35em 0.75em;
+  border-radius: 50rem;
+  font-size: 0.875rem;
+  white-space: nowrap;
+  height: fit-content;
+}
+
+/***** Back to Top Button *****/
+
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  padding: 0.5rem 1rem;
+}

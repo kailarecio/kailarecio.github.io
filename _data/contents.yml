@@ -1,0 +1,109 @@
+industry_experience:
+  - title: "Data Analyst @ Bloomberg LP"
+    description: ""
+    date: "2023 - Present"
+  - title: "Macro Research Intern @ Centennial Asia Advisors"
+    description: ""
+    date: "Sep - Dec 2022"
+  - title: "ESG Research Intern @ Arisaig Partners"
+    description: ""
+    date: "Jul - Aug 2022"
+
+extracurricular_activities:
+  - title: "ESG Research Analyst @ Gen Z Investment Club"
+    description: ""
+    date: "Jul 2021 - Jul 2023"
+  - title: "Lead Global Macro Analyst @ NUS Investment Society"
+    description: ""
+    date: "Sep 2021 - May 2022"
+
+projects:
+  - title: "Interest Rate Options Discovery"
+    url: "assets/images/iro_disc.gif"
+    image: "assets/images/iro_disc.gif"
+    alt: "iro_disc"
+    description: "A web application designed to search and query pricing of interest rate options."
+
+  - title: "FX Pricing Benchmarking Study"
+    url: "assets/images/fx_pricing.gif"
+    image: "assets/images/fx_pricing.gif"
+    alt: "fx_pricing"
+    description: "A benchmarking study comparing FX pricing from different platforms."
+
+education:
+  - title: "National University of Singapore"
+    subtitle: "Bachelor of Social Science Major in Economics"
+    date: "Aug 2019 - May 2023"
+    description: ""
+
+  - title: "University of California Los Angeles"
+    subtitle: "Study Abroad Program in Economics"
+    date: "Sep - Dec 2022"
+    description: ""
+
+bachelors_thesis:
+  - title: "Term Limits, Political Dynasties & Economic Outcomes: Evidence from the Philippines"
+    url: "https://scholarbank.nus.edu.sg/entities/publication/dc5182c5-3767-4ca0-8ba9-9b94efa13b8b"
+    subtitle: "Abstract"
+    description: |
+      The proliferation of political dynasties has led to longstanding concerns over their influence on development.
+      For this reason, this study investigates the causal effect of dynastic mayors on economic outcomes by using an exogenous source of variation in their dynastic composition – the term limit policy.
+      Using a difference-in-difference strategy, I compare municipalities affected and yet to be affected by term limits before and after coming into effect to isolate its impact on dynastic mayors.
+      Instead of eradicating political elites, term limits lead to more dynastic mayors as they adapt to retain power.
+      Using the policy to instrument for dynastic mayors, further analysis reveals that municipalities under their purview receive 1.23 million Pesos more national aid – almost thrice the average municipality.
+      Inequality remains stark with aid concentrated among high-income municipalities Lastly, I observe no changes in household wealth and education in part due to corruption among local dynasties.
+
+awards:
+  - title: "UCLA Dean's Honors List"
+    url: "https://catalog.registrar.ucla.edu/browse/College%20and%20Schools/CollegeofLettersandScience/Honors"
+    description: "The Dean's Honors List recognizes high scholastic achievement in any one term, with at least a 3.75 grade-point average (GPA) and 12 graded units."
+    date: "Winter 2022"
+
+  - title: "NUS FASS Dean's List"
+    url: "https://fass.nus.edu.sg/current-students/student-hall-of-fame/deans-list/"
+    description: "The Dean’s List is an award given to the top 5% of each cohort, with meritorious academic achievement, at the end of each semester or academic year."
+    date: "Sem 2 2021"
+
+  - title: "NUS ASEAN Undergraduate Merit Scholarship"
+    url: "https://nus.edu.sg/oam/scholarships/scholarships-for-freshmen-singapore-permanent-residents/asean-undergraduate-scholarship"
+    description: "The ASEAN Undergraduate Scholarship is a full-ride freshmen scholarship offered to support outstanding students from ASEAN member countries for the duration of their undergraduate studies."
+    date: "2019 - 2023"
+
+  - title: "MOE ASEAN Scholarship for the Philippines"
+    url: "https://www.moe.gov.sg/financial-matters/awards-scholarships/asean-scholarship/philippines"
+    description: "The ASEAN Scholarship for The Philippines is a full-ride scholarship tenable for 4 years leading to the award of the Singapore-Cambridge General Certificate of Education Advanced Level (GCE A-Level) or equivalent certificate."
+    date: "2015 - 2018"
+
+certifications:
+  - title: "Passed CFA Level 1"
+    url: "files/cfa_level_1.pdf"
+    description: ""
+    date: "January 2025"
+
+  - title: "CFA Certificate in ESG Investing"
+    url: "https://basno.com/gzjss51m/certificate"
+    description: ""
+    date: "December 2022"
+
+leadership:
+  - title: "Tech Pillar Lead @ Bloomberg Women in Tech Singapore"
+    date: "Jan 2025 - Present"
+    description: ""
+
+  - title: "South Asia Team Lead @ NUS Investment Club Global Macro Research"
+    date: "Semester 2 2021"
+    description: ""
+
+  - title: "Captain @ NUS Tembusu College Bouldering"
+    date: "Feb 2020 - Feb 2021"
+    description: ""
+
+volunteering:
+  - title: "Mentor @ JA Singapore"
+    subtitle: ""
+    description: ""
+    date: "Aug 2023 - Present"
+  - title: "Instructor @ Mathematics Trainers Guild Philippines"
+    subtitle: ""
+    description: ""
+    date: "Summer 2019"
