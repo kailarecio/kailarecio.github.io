@@ -3,15 +3,19 @@
     {% for item in items %}
       <li>
         <div class="section-info">
-
           <div class="section-title">
-            {% if item.url and item.url != "" %}
-              <a href="{{ item.url }}">{{ item.title }}</a>
-            {% else %}
-              <div class="section-title-text">{{ item.title }}</div>
-            {% endif %}
+              {% if item.url and item.url != "" %}
+                <a href="{{ item.url }}">{{ item.title }}</a>
+              {% else %}
+                <div class="section-title-text">{{ item.title }}</div>
+              {% endif %}
           </div>
+          {% if item.date %}
+            <span class="section-badge">{{ item.date }}</span>
+          {% endif %}
+        </div>
 
+        <div class="section-content">
           {% if item.subtitle %}
             {% if item.subtitle == "Abstract" %}
               <p></p>
@@ -24,12 +28,7 @@
           {% if item.description %}
             <p>{{ item.description }}</p>
           {% endif %}
-
         </div>
-        {% if item.date %}
-          <span class="section-badge">{{ item.date }}</span>
-        {% endif %}
-
       </li>
     {% endfor %}
   </ul>

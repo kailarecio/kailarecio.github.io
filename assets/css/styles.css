@@ -17,10 +17,10 @@
 .page-style {
   max-width: 250mm;
   margin: 0 auto;
-  padding: 20px;
+  padding: 20px 0;
   box-sizing: border-box;
   font-family: 'Lora', serif;
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 400;
 }
 
@@ -179,9 +179,22 @@ body.dark-mode .pills a:focus {
   background-color: var(--accent-hover-dark);
 }
 
+.section-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
 .section-info a {
   color: var(--accent-light);
   text-decoration: underline;
+}
+
+
+.section-content {
+  width: 100%;
 }
 
 body.dark-mode .section-info a {
@@ -207,10 +220,10 @@ body.dark-mode .section-container {
 
 .section-container li {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   margin: auto;
   align-items: top;
-  padding: 1rem;
+  padding: 1rem 0 0 0;
   margin-bottom: 0.75rem;
   position: relative;
   border: none;
@@ -269,4 +282,29 @@ body.dark-mode .section-badge {
   right: 20px;
   display: none;
   padding: 0.5rem 1rem;
+}
+
+/***** Mobile responsive ******/
+@media (max-width: 768px) {
+  .page-style {
+    font-size: 12px;
+    padding: 10px 0;
+  }
+
+  .bio-pic img {
+    max-width: 120px;
+  }
+
+  .pills a {
+    font-size: 0.75rem;
+    padding: 0.25rem 0.75rem;
+  }
+
+  .section-badge {
+    font-size: 0.75rem;
+  }
+
+  .lead {
+    font-size: 1rem;
+  }
 }

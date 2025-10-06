@@ -21,7 +21,7 @@ skills:
     description: "Python, SQL, HTML, CSS, JavaScript"
   - title: "Libraries & Frameworks"
     description: "Pandas, NumPy, Scikit-learn, SQLAlchemy, Plotly, Streamlit, Flask, pytest, React.js, Jinja, Bootstrap"
-  - title: "Tools & Platforms:"
+  - title: "Tools & Platforms"
     description: "Tools & Platforms: Git, CI/CD (Jenkins), PostgreSQL, Trino, Qlik Sense"
 
 extracurricular_activities:
