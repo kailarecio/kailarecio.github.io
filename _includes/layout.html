@@ -17,12 +17,7 @@
 
         <div class="section-content">
           {% if item.subtitle %}
-            {% if item.subtitle == "Abstract" %}
-              <p></p>
-              <div style="text-align:center"><strong>{{ item.subtitle }}</strong></div>
-            {% else %}
-              <div><strong>{{ item.subtitle }}</strong></div>
-            {% endif %}
+            <div><strong>{{ item.subtitle }}</strong></div>
           {% endif %}
 
           {% if item.description %}
@@ -31,4 +26,4 @@
         </div>
       </li>
     {% endfor %}
-  </ul>
+</ul>

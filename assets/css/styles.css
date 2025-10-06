@@ -179,6 +179,15 @@ body.dark-mode .pills a:focus {
   background-color: var(--accent-hover-dark);
 }
 
+.section-title a,
+.section-title div {
+  font-size: 15px;
+}
+
+.section-content strong {
+  font-size: 15px;
+}
+
 .section-info {
   display: flex;
   justify-content: space-between;
@@ -211,7 +220,7 @@ body.dark-mode .section-info a {
   position: relative;
   border-left: 2px solid var(--accent-light);
   margin-left: 0;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 body.dark-mode .section-container {
@@ -224,7 +233,7 @@ body.dark-mode .section-container {
   margin: auto;
   align-items: top;
   padding: 1rem 0 0 0;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0;
   position: relative;
   border: none;
   background-color: transparent;
@@ -240,7 +249,7 @@ body.dark-mode .section-container li {
 
 .section-title {
   font-weight: 600;
-  margin-bottom: 0.25rem;
+  margin-bottom: 0;
 }
 
 .section-title a {
@@ -288,7 +297,7 @@ body.dark-mode .section-badge {
 @media (max-width: 768px) {
   .page-style {
     font-size: 12px;
-    padding: 10px 0;
+    padding: 10px 1px;
   }
 
   .bio-pic img {

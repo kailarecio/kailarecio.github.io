@@ -21,7 +21,7 @@ skills:
     description: "Python, SQL, HTML, CSS, JavaScript"
   - title: "Libraries & Frameworks"
     description: "Pandas, NumPy, Scikit-learn, SQLAlchemy, Plotly, Streamlit, Flask, pytest, React.js, Jinja, Bootstrap"
-  - title: "Tools & Platforms"
+  - title: "Tools & Platforms:"
     description: "Tools & Platforms: Git, CI/CD (Jenkins), PostgreSQL, Trino, Qlik Sense"
 
 extracurricular_activities:
@@ -61,7 +61,7 @@ education:
 bachelors_thesis:
   - title: "Term Limits, Political Dynasties & Economic Outcomes: Evidence from the Philippines"
     url: "https://scholarbank.nus.edu.sg/entities/publication/dc5182c5-3767-4ca0-8ba9-9b94efa13b8b"
-    subtitle: "Abstract"
+    date: "Abstract"
     description: |
       The proliferation of political dynasties has led to longstanding concerns over their influence on development.
       For this reason, this study investigates the causal effect of dynastic mayors on economic outcomes by using an exogenous source of variation in their dynastic composition – the term limit policy.
