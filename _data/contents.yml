@@ -1,39 +1,62 @@
 industry_experience:
   - title: "Data Analyst @ Bloomberg LP"
-    description: ""
-    date: "2023 - Present"
+    description: |
+      • Led the expansion of 100K+ pricing data points in APAC as IRD Project Manager, coordinating with global Product and Relationship Managers to onboard broker pricing<br>
+      • Built analytical tools including Qlik Sense dashboards for pricing monitoring, Streamlit applications for data discovery across 1.6M+ data points, and Python ETL pipelines for augment tables to our data lake<br>
+      • Architected migration from Google Sheets to Bloomberg's cloud storage, eliminating manual entry workflows with comprehensive data validation and 90% test coverage<br>
+      • Applied statistical frameworks for price benchmarking and fuzzy matching algorithms to support discoverability, aiding commercial discussions and enterprise deals worth $100K+<br>
+    date: "Aug 2023 - Present"
   - title: "Macro Research Intern @ Centennial Asia Advisors"
-    description: ""
+    description: "Integrated CEIC APIs into spreadsheets for automated surveillance on macroeconomic indicators in Vietnam and Thailand, generating weekly economic updates and deep-dive thematic reports for institutional clients"
     date: "Sep - Dec 2022"
   - title: "ESG Research Intern @ Arisaig Partners"
-    description: ""
+    description: "Developed a quantitative biodiversity risk scoring model for portfolio assessment and benchmarked ESG practices across holdings with Bloomberg APIs to inform engagement and investment strategies"
     date: "Jul - Aug 2022"
+  - title: "Research Assistant @ NUS Centre for Governance and Sustainability"
+    description: "Analyzed and extracted governance metrics from 65 company reports of Singapore-listed companies, creating a quantitative corporate governance dataset to produce the <a href='https://sid.org.sg/common/Uploaded%20files/Resources/CGHighlights2022.pdf'>2022 Singapore Governance and Transparency Index (SGTI)</a>"
+    date: "Apr - Jun 2022"
+
+skills:
+  - title: "Languages"
+    description: "Python, SQL, HTML, CSS, JavaScript"
+  - title: "Libraries & Frameworks"
+    description: "Pandas, NumPy, Scikit-learn, SQLAlchemy, Plotly, Streamlit, Flask, pytest, React.js, Jinja, Bootstrap"
+  - title: "Tools & Platforms:"
+    description: "Tools & Platforms: Git, CI/CD (Jenkins), PostgreSQL, Trino, Qlik Sense"
 
 extracurricular_activities:
   - title: "ESG Research Analyst @ Gen Z Investment Club"
-    description: ""
+    description: "Delivered stock pitches integrating ESG metrics into fundamental analysis and co-managed a long-only $10,000 endowment fund, producing detailed investment memos for portfolio decisions."
     date: "Jul 2021 - Jul 2023"
   - title: "Lead Global Macro Analyst @ NUS Investment Society"
-    description: ""
+    description: "Produced weekly research pieces on Indonesia and the Philippines, analyzing macroeconomic trends and central bank policies to develop FX trade recommendations that hit their take-profit levels."
     date: "Sep 2021 - May 2022"
 
 projects:
-  - title: "Interest Rate Options Discovery"
-    description: "A web application designed to search and query pricing of interest rate options."
-
-  - title: "FX Pricing Benchmarking Study"
-    description: "A benchmarking study comparing FX pricing from different platforms."
+  - title: "Singapore Cafe Reviews"
+    description: "An exploratory data analysis project combining quantitative star-ratings and qualitative text-based reviews on Google Maps to uncover insights about Singapore's cafe scene. Built a data pipeline using Google Maps API and Python to extract, process, and store cafe data across neighborhood boundaries defined through GeoJSON mapping. Track development updates <a href='https://www.notion.so/Google-Reviews-Cafe-Analysis-27d25cc93c1780c68958f5dc124789c1'>here.</a>"
+    date: "<a href='https://github.com/kailarecio/sg-cafe-reviews' style='color: white; text-decoration: underline'>Github Repo</a>"
 
 education:
   - title: "National University of Singapore"
-    subtitle: "Bachelor of Social Science Major in Economics"
+    subtitle: "Bachelor of Social Sciences with Honours (Highest Distinction) in Economics"
     date: "Aug 2019 - May 2023"
-    description: ""
+    description: |
+      Specializations: Quantitative Economics, Monetary & Financial Economics<br>GPA: 4.7/5.0
+      <p>Relevant Coursework: Econometrics II (A+), Macroeconomic Analysis II (A), Economic & Financial Forecasting (A), Machine Learning & Economic Forecasting (A-), Programming Methodology (A-)</p>
 
   - title: "University of California Los Angeles"
     subtitle: "Study Abroad Program in Economics"
     date: "Winter 2022"
-    description: ""
+    description: |
+      GPA: 3.9/4.0
+      <p>Coursework: International Trade Theory (A), International Finance (A-), Digital Media Studies (A)</p>
+  - title: "Tembusu College"
+    subtitle: "University Town College Program"
+    date: "Aug 2019 - May 2020"
+    description: |
+      A 2-year residential liberal arts program completed alongside my Economics degree, emphasizing multidisciplinary learning through small seminars with students from diverse academic backgrounds
+      <p>Coursework: Time and Life (A+), Interpreting the Vampire (A)</p>
 
 bachelors_thesis:
   - title: "Term Limits, Political Dynasties & Economic Outcomes: Evidence from the Philippines"
@@ -71,33 +94,63 @@ awards:
 certifications:
   - title: "Passed CFA Level 1"
     url: "assets/files/cfa_level_1.pdf"
-    description: ""
+    description: "The first of three levels in the Chartered Financial Analyst (CFA) Program, it tests fundamental knowledge in investment tools, ethics, asset valuation, economics, financial reporting, quantitative methods, fixed income and portfolio management."
     date: "January 2025"
 
   - title: "CFA Certificate in ESG Investing"
     url: "https://basno.com/gzjss51m/certificate"
-    description: ""
+    description: "A professional credential that demonstrates expertise in integrating environmental, social, and governance (ESG) factors into investment analysis and decision-making."
     date: "December 2022"
 
 leadership:
   - title: "Tech Pillar Lead @ Bloomberg Women in Tech Singapore"
     date: "Jan 2025 - Present"
-    description: ""
+    description: "Design and execute programs empowering women in technical roles, including a Python upskilling curriculum for mid-career professionals and a tech showcase series where contributors can build confidence presenting their work for technical conferences. Collaborate with the global Women in Tech team to align initiatives and share best practices across regions."
 
   - title: "South Asia Team Lead @ NUS Investment Club Global Macro Research"
     date: "Semester 2 2021"
-    description: ""
+    description: "Led the South Asia research team, overseeing semesterly deliverables and providing strategic guidance for the club on macroeconomic trends across the region."
 
   - title: "Captain @ NUS Tembusu College Bouldering"
     date: "Feb 2020 - Feb 2021"
-    description: ""
+    description: "Organized bouldering sessions both within the college and at external climbing gyms, mentoring beginners in bouldering techniques and safety. Led the team to a 3rd place finish at the annual Inter College Games."
+
+  - title: "Vice Captain @ NUS Tembusu College Women's Football"
+    date: "Feb 2020 - Feb 2021"
+    description: "Supported equipment and planning logistics while developing as a team player, contributing to strong performance that secured 2nd place at the annual Inter College Games."
 
 volunteering:
-  - title: "Mentor @ JA Singapore"
+  - title: ""
+    subtitle: "Education<hr>"
+    description: "Education has been a core tenet of my value system, shaping how I give back to my communities. I believe in its power to transform lives, as it has mine. Growing up, I was fortunate to have access to quality education and mentorship that opened doors I didn't know existed.
+                  Now, I'm committed to creating those same opportunities for others—whether through formal mentoring, career guidance, or teaching the subjects that once challenged and inspired me."
+    date:
+  - title: "Mentor @ <a href='https://www.ja.org.sg/'>Junior Achievement (JA) Singapore</a>"
     subtitle: ""
-    description: ""
-    date: "Aug 2023 - Present"
-  - title: "Instructor @ Mathematics Trainers Guild Philippines"
+    description: |
+      Mentor students from Singapore polytechnics and Philippine universities through one-on-one sessions, speed mentoring events and career sharing talks to support their professional development. A sample from one of our sessions is available <a href='https://www.linkedin.com/feed/update/urn:li:activity:7373341572752531456/'>here.</a>
+    date: "Sep 2023 - Present"
+  - title: "Instructor @ <a href='https://www.mtgphil.org/'>Mathematics Trainers Guild (MTG) Philippines</a>"
     subtitle: ""
-    description: ""
+    description: "Taught advanced mathematics to Grade 4-6 students preparing for international math competitions. As a former MTG student myself, this was a rare opportunity to give back to the program that shaped my own mathematical foundation and propelled me to get to where I am today."
     date: "Summer 2019"
+  - title: "Community Career Sharing"
+    subtitle:
+    description: "Host <a href='https://www.linkedin.com/posts/alexandra-ang_filipinopride-barangaynus-careerjourney-activity-7269628596233625603-rWPt'>career sharing sessions</a> with Filipino communities across three local universities in Singapore, and conduct virtual sessions with high school students at Philippine Science High School Baguio for guidance on study planning and university applications."
+  - title: ""
+    subtitle: "Diversity & Inclusivity<hr>"
+    description: "Inclusivity drives my community work—I believe everyone deserves access to opportunities and spaces where they can thrive.
+                  Through my involvement with various organizations, I've seen how community support and dedicated advocacy can break down barriers and create more equitable opportunities where everyone's abilities are celebrated and valued."
+    date:
+  - title: "Volunteer @ <a href='https://www.bloomberg.org/'>Bloomberg Philanthropies</a>"
+    subtitle: ""
+    description: "Contributed to community initiatives across diverse sectors, including archiving theatrical works with <a href='https://www.centre42.sg/'>Centre42</a>. We have also sorted and curated designs for the New2U Thrift Shop run by <a href='https://www.scwo.org.sg/'>Singapore Council of Women's Organisations,</a> which raises funds for programs such as the Star Shelter — a home for women and children who have experienced domestic abuse."
+    date:
+  - title: "<a href='https://www.bloomberg.com/company/values/inclusion/'>Bloomberg's Communities</a>"
+    description: |
+      Active member of Bloomberg Women's Community (BWC), which partners with organizations such as <a href='https://www.roomtoread.org/'>Room to Read</a> to support literacy and girls' education in developing nations;
+      and participate in the annual <a href='https://bcf.org.sg/event/pink-ribbon-walk-2025/'>Pink Ribbon Walk</a>, organized by the <a href='https://bcf.org.sg/'>Breast Cancer Foundation</a> to raise awareness and funds for breast cancer patients in Singapore.
+
+      <p>I am excited about the growth of Bloomberg Abilities Community (B-ABLE), which has partnered with organizations in Singapore such as <a href='https://artdis.org.sg/'>Art:DIS</a>, which holds workshops fostering communication and artistic expression for people with disabilities;
+      as well as <a href='https://www.k9assistance.sg/'>K9Assistance</a>, advocating for the acceptance of Assistance Dogs to aid people with disabilities. These platforms also give us the opportunity to participate in <a href='https://purpleparade.sg/'>Purple Parade</a>, Singapore's largest annual celebration promoting incolusion and celebrating our diversity of abilities.</p>
+

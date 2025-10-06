@@ -1,5 +1,7 @@
 - key: industry_experience
   label: Industry Experience
+- key: skills
+  label: Skills
 - key: education
   label: Education
 - key: bachelors_thesis

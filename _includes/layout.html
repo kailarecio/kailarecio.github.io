@@ -5,11 +5,11 @@
         <div class="section-info">
 
           <div class="section-title">
-              {% if item.url and item.url != "" %}
-                <a href="{{ item.url }}">{{ item.title }}</a>
-              {% else %}
-                <div style=color:#cc8b86>{{ item.title }}</div>
-              {% endif %}
+            {% if item.url and item.url != "" %}
+              <a href="{{ item.url }}">{{ item.title }}</a>
+            {% else %}
+              <div class="section-title-text">{{ item.title }}</div>
+            {% endif %}
           </div>
 
           {% if item.subtitle %}

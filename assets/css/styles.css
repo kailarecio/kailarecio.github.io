@@ -1,51 +1,91 @@
+/******** CSS Variables (Color Palette) ********/
+:root {
+  /* Light Mode Colors */
+  --text-light: #1c1c1c;
+  --accent-light: #7d82a3;
+  --accent-hover-light: #656a8a;
+  --border-light: #ddd;
+
+  /* Dark Mode Colors */
+  --text-dark: #f5f5f5;
+  --accent-dark: #a9afc6;
+  --accent-hover-dark: #8d94b3;
+  --border-dark: #444;
+}
+
 /******** Page Styles ********/
 .page-style {
-  max-width: 210mm;
+  max-width: 250mm;
   margin: 0 auto;
   padding: 20px;
   box-sizing: border-box;
-  font-family: 'Helvetica', sans-serif;
-  font-size: 14px;
+  font-family: 'Lora', serif;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 hr {
   border: none;
-  border-top: 1px solid #cc8b86;
+  border-top: 1px solid var(--accent-light);
   margin: 1.5rem 0;
 }
 
 /******** Backgrounds ********/
 /* Light Mode (Default) */
 body {
-  background-color: #ffffff;
-  color: #1c1c1c;
+  background-color: white;
+  color: var(--text-light);
 }
 
 /* Dark Mode */
 body.dark-mode {
-  background-color: #1c1c1c;
-  color: #f5f5f5;
+  background-color: var(--text-light);
+  color: var(--text-dark);
+}
+
+body.dark-mode a:hover,
+body.dark-mode a:focus {
+  color: var(--accent-hover-dark);
+  text-decoration: underline;
+}
+
+body.dark-mode a {
+  color: var(--accent-dark);
+  text-decoration: underline;
 }
 
 /******** Links ********/
 a {
-  color: #cc8b86;
-  text-decoration: none;
+  color: var(--accent-light);
+  text-decoration: underline;
   transition: color 0.3s ease;
 }
 
 a:hover,
 a:focus {
-  color: #b46979;
+  color: var(--accent-hover-light);
   text-decoration: underline;
   outline: none;
 }
 
 /******** Icons ********/
 .icons i {
-  color: #cc8b86;
+  color: var(--accent-light);
   font-size: 14px;
   margin: 0 3px;
+}
+
+.icons a {
+  font-weight: 600;
+  color: var(--accent-light);
+}
+
+body.dark-mode .icons i {
+  color: var(--accent-dark);
+}
+
+body.dark-mode .icons a {
+  color: var(--accent-dark);
 }
 
 /******** Biography Section ********/
@@ -86,6 +126,19 @@ a:focus {
   text-align: center;
 }
 
+/* Enhanced name styling */
+.bio-profile .lead strong {
+  font-family: 'Kalam';
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: -0.02em;
+  color: var(--accent-light);
+}
+
+body.dark-mode .bio-profile .lead strong {
+  color: var(--accent-dark);
+}
+
 /****** Pills (Sections) ******/
 .pills {
   display: flex;
@@ -100,9 +153,9 @@ a:focus {
 .pills a {
   padding: 0.375rem 1rem;
   border-radius: 50rem;
-  background-color: #cc8b86;
+  background-color: var(--accent-light);
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: 500;
   transition: background-color 0.3s ease;
   white-space: nowrap;
@@ -111,15 +164,45 @@ a:focus {
 
 .pills a:hover,
 .pills a:focus {
-  background-color: #b46979;
+  background-color: var(--accent-hover-light);
   outline: none;
+  text-decoration: none;
+}
+
+body.dark-mode .pills a {
+   background-color: var(--accent-dark);
+   color: white;
+}
+
+body.dark-mode .pills a:hover,
+body.dark-mode .pills a:focus {
+  background-color: var(--accent-hover-dark);
+}
+
+.section-info a {
+  color: var(--accent-light);
+  text-decoration: underline;
+}
+
+body.dark-mode .section-info a {
+  color: var(--accent-dark);
+  text-decoration: underline;
 }
 
 /***** Section Template (layout.html) *****/
 .section-container {
   list-style: none;
-  margin: auto;
+  margin: 0;
   padding: 1rem;
+  padding-left: 2rem;
+  position: relative;
+  border-left: 2px solid var(--accent-light);
+  margin-left: 0;
+  margin-bottom: 3rem;
+}
+
+body.dark-mode .section-container {
+  border-left-color: var(--accent-dark);
 }
 
 .section-container li {
@@ -128,9 +211,14 @@ a:focus {
   margin: auto;
   align-items: top;
   padding: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 0.5rem;
   margin-bottom: 0.75rem;
+  position: relative;
+  border: none;
+  background-color: transparent;
+}
+
+body.dark-mode .section-container li {
+  border-left-color: var(--accent-dark);
 }
 
 .section-info {
@@ -142,14 +230,35 @@ a:focus {
   margin-bottom: 0.25rem;
 }
 
+.section-title a {
+  color: var(--accent-light);
+}
+
+body.dark-mode .section-title a {
+  color: var(--accent-dark);
+}
+
+.section-title-text {
+  color: var(--accent-light);
+}
+
+body.dark-mode .section-title-text {
+  color: var(--accent-dark);
+}
+
 .section-badge {
-  background-color: #cc8b86;
+  background-color: var(--accent-light);
   color: white;
   padding: 0.35em 0.75em;
   border-radius: 50rem;
   font-size: 0.875rem;
   white-space: nowrap;
   height: fit-content;
+}
+
+body.dark-mode .section-badge {
+  background-color: var(--accent-dark);
+  color: white;
 }
 
 /***** Back to Top Button *****/

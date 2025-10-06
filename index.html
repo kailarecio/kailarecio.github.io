@@ -11,6 +11,10 @@ title: Kaila Recio
     <title>{{ page.title }}</title>
 
     <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Latin+Modern+Roman&display=swap" rel="stylesheet">
 
     <!-- Bootstrap CSS -->
@@ -55,11 +59,16 @@ title: Kaila Recio
   <!-- Bio Main -->
   <div class="my-1">
     <p>
-      I am a Data Analyst at Bloomberg L.P. managing live pricing data for over-the-counter (OTC) financial products, including FX and derivatives, to support real-time client decision-making.
+      I am currently a Data Analyst at Bloomberg in Singapore managing live pricing data for over-the-counter (OTC) financial products,
+      including FX and derivatives, to support real-time client decision-making.
     </p>
     <p>
-      I hold a Bachelor's Degree in Economics from the National University of Singapore (NUS), where I graduated with First Class Honours.
-      I specialized in Quantitative Economics, with a particular interest in Econometrics and Development Economics.
+      I hold a Bachelor's Degree in Economics from the National University of Singapore (NUS), where I graduated with Honours (Highest Distinction).
+      I specialized in Quantitative Economics, with a particular interest in Econometrics and Development Economics —
+      fields that sparked my passion for giving life to and deriving meaning from datasets.
+    </p>
+    <p>
+      I look forward to growing in the field and applying my skills as a Data Scientist to solve problems that matter in today's world.
     </p>
   </div>
   <hr>
@@ -71,9 +80,10 @@ title: Kaila Recio
     <a href="#{{ section.key }}">{{ section.label }}</a>
   {% endfor %}
   </div>
+  <p></p>
 
   <!-- All Content Sections -->
-  <div class="container">
+  <div style="padding: 0;">
     {% for section in site.data.sections %}
       {% assign key = section.key %}
       {% assign label = section.label %}
@@ -94,7 +104,7 @@ title: Kaila Recio
 <footer class=" my-4">
   <p>
     The source code is available on my
-    <a href="https://github.com/kailarecio/website_v2" target="_blank">
+    <a href="https://github.com/kailarecio/kailarecio.github.io" target="_blank">
       Github repo!
     </a>
   </p>
