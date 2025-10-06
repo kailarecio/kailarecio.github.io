@@ -1,2 +1,16 @@
+# Jekyll generated files
 _site/
 .jekyll-cache/
+.jekyll-metadata
+
+# macOS system files
+.DS_Store
+**/.DS_Store
+
+# Bundler
+vendor/bundle/
+.bundle/
+
+# Other
+*.swp
+*~
