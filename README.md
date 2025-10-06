@@ -1,6 +1,6 @@
 ## Website!
 
-This is the source code to my website available [here](https://kailarecio.github.io)
+This is the source code to my [website](https://kailarecio.github.io)
 
 A little late to the party and this is my first website. For bugs, questions, or anything under the sun, open an issue or contact me through my details on the site above. Thanks for your interest in this silly project!
 
@@ -69,7 +69,7 @@ A little late to the party and this is my first website. For bugs, questions, or
 
 ### Quick Setup for Your Own Site
 
-1. Fork this repository
+1. Clone this repository
 2. Rename the repository to `yourusername.github.io`
 3. Update the content in `_data/` YAML files
 4. Customize colors and styling in `assets/css/styles.css`
@@ -93,15 +93,15 @@ sections:
 ```
 
 **Main Content** (`_data/contents.yml`)  
-Fill in the values for the section contents with the format below. All content values are optional, and can either be omitted or set to an empty string `""`. If the subtitle is set to "Abstract", it will automatically be centralized. This can be amended in `_includes/layout.html`
+Fill in the values for the section contents with the format below. All content values are optional, and can either be omitted or set to an empty string `""`. If the subtitle is set to "Abstract", it will automatically be centralized. This can be amended in `_includes/layout.html`. Alternatively, any of the text entered in the yaml file will also be rendered as HTML.
 
 ```yaml
 section_name_1:
-  - title: "Appears as pink"
-    subtitle: "Appears as bolded text in the default color"
+  - title: "Appears with the `--accent-light` or `--accent-dark` color"
+    subtitle: "Appears as bolded text in the `--text-light` or `--text-dark` color"
     description: "Brief summary with no custom styles applied"
-    date: "Appears as the text in the pink pill on the right"
-    url: "Links to the pink text"
+    date: "Appears as the text in the pill on the right"
+    url: "Links to the title text"
   
 ```
 
