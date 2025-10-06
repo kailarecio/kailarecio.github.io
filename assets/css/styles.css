@@ -180,7 +180,7 @@ body.dark-mode .pills a:focus {
 }
 
 .section-title a,
-.section-title div {
+.section-title * {
   font-size: 15px;
 }
 
@@ -297,7 +297,7 @@ body.dark-mode .section-badge {
 @media (max-width: 768px) {
   .page-style {
     font-size: 12px;
-    padding: 10px 1px;
+    padding: 10px;
   }
 
   .bio-pic img {
